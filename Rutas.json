@@ -2,15 +2,36 @@
     "rutas_entrenamiento": [
         {
             "nombre": "Ruta NodeJS",
-            "modulos": ["Fundamentos de programación", "Programación Web", "Backend"]
+            "modulos": [
+                "Fundamentos de programaci\u00c3\u00b3n",
+                "Programaci\u00c3\u00b3n Web",
+                "Backend",
+                "Express"
+            ]
         },
         {
             "nombre": "Ruta Java",
-            "modulos": ["Fundamentos de programación", "Programación formal", "Backend"]
+            "modulos": [
+                "Fundamentos de programaci\u00c3\u00b3n",
+                "Programaci\u00c3\u00b3n formal",
+                "Backend"
+            ]
         },
         {
             "nombre": "Ruta NetCore",
-            "modulos": ["Fundamentos de programación", "Programación formal", "Backend"]
+            "modulos": [
+                "Fundamentos de programaci\u00c3\u00b3n",
+                "Programaci\u00c3\u00b3n formal",
+                "Backend"
+            ]
+        },
+        {
+            "nombre": "Programacion Web",
+            "modulos": [
+                "HTML",
+                "CSS",
+                "BOOTSTRAP"
+            ]
         }
     ]
 }

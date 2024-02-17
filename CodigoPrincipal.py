@@ -1,5 +1,6 @@
 import GestionesMenus 
 import GestionCampers
+import GestionRutas
 
 while True : 
     opc = GestionesMenus.mostrar_menu_principal()
@@ -7,8 +8,8 @@ while True :
         opc_GestionCampers = GestionesMenus.mostrar_menu_gestion_campers()
         GestionCampers.menu_campers(opc_GestionCampers)
     elif opc == 2: 
-        opc_GestionRutas = GestionesMenus.mostrar_menu_gestion_rutas
-        GestionesMenus.mostrar_menu_gestion_rutas(opc_GestionRutas)
+        opc_GestionRutas = GestionesMenus.mostrar_menu_gestion_rutas()
+        GestionRutas.menu_ruta(opc_GestionRutas)
     elif opc == 3: 
         opc_GestionEntrenadores = GestionesMenus.mostrar_menu_gestion_entrenadores
         GestionesMenus.mostrar_menu_gestion_entrenadores(opc_GestionEntrenadores)
