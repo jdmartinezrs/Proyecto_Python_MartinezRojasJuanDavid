@@ -1,17 +1,45 @@
 [
     {
         "nombre": "Sputnik",
-        "capacidad_maxima": 33,
-        "horarios_disponibles": ["Mañana", "Tarde", "Noche"]
+        "capacidad_maxima": 32,
+        "horarios_disponibles": [
+            "Ma\u00c3\u00b1ana",
+            "Tarde",
+            "Noche"
+        ],
+        "estudiantes": [
+            {
+                "id": 2,
+                "nombres": "Mar\u00c3\u00ada",
+                "apellidos": "Gonz\u00c3\u00a1lez",
+                "direccion": "Avenida 456",
+                "acudiente": "Pedro Gonz\u00c3\u00a1lez",
+                "telefonos": {
+                    "celular": "2345678901",
+                    "fijo": "8765432109"
+                },
+                "estado": "Aprobado",
+                "riesgo": "Bajo",
+                "ruta_asignada": "Ruta Java"
+            }
+        ]
     },
     {
         "nombre": "Apolo",
         "capacidad_maxima": 33,
-        "horarios_disponibles": ["Mañana", "Tarde", "Noche"]
+        "horarios_disponibles": [
+            "Ma\u00c3\u00b1ana",
+            "Tarde",
+            "Noche"
+        ]
     },
     {
         "nombre": "Artemis",
         "capacidad_maxima": 33,
-        "horarios_disponibles": ["Mañana", "Tarde", "Noche"]
+        "horarios_disponibles": [
+            "Ma\u00c3\u00b1ana",
+            "Tarde",
+            "Noche"
+        ]
     }
 ]

@@ -11,7 +11,8 @@
                 "fijo": "9876543210"
             },
             "estado": "Inscrito",
-            "riesgo": "Bajo"
+            "riesgo": "Bajo",
+            "ruta_asignada": "Ruta NodeJS"
         },
         {
             "id": 2,
@@ -24,7 +25,8 @@
                 "fijo": "8765432109"
             },
             "estado": "Aprobado",
-            "riesgo": "Bajo"
+            "riesgo": "Bajo",
+            "ruta_asignada": "Ruta Java"
         },
         {
             "id": 12893,
