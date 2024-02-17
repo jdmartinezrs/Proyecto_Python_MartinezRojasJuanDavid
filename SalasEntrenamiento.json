@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Sputnik",
+        "capacidad_maxima": 33,
+        "horarios_disponibles": ["Mañana", "Tarde", "Noche"]
+    },
+    {
+        "nombre": "Apolo",
+        "capacidad_maxima": 33,
+        "horarios_disponibles": ["Mañana", "Tarde", "Noche"]
+    },
+    {
+        "nombre": "Artemis",
+        "capacidad_maxima": 33,
+        "horarios_disponibles": ["Mañana", "Tarde", "Noche"]
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "rutas_entrenamiento": [
+        {
+            "nombre": "Ruta NodeJS",
+            "modulos": ["Fundamentos de programación", "Programación Web", "Backend"]
+        },
+        {
+            "nombre": "Ruta Java",
+            "modulos": ["Fundamentos de programación", "Programación formal", "Backend"]
+        },
+        {
+            "nombre": "Ruta NetCore",
+            "modulos": ["Fundamentos de programación", "Programación formal", "Backend"]
+        }
+    ]
+}

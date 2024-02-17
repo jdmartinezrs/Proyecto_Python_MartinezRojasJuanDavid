@@ -1,0 +1,23 @@
+[
+    {
+        "identificacion": 12345,
+        "nombre": "Juan",
+        "apellidos": "Pérez",
+        "especialidad": "Java",
+        "horarios_disponibles": ["Mañana", "Tarde"]
+    },
+    {
+        "identificacion": 67890,
+        "nombre": "María",
+        "apellidos": "García",
+        "especialidad": "NodeJS",
+        "horarios_disponibles": ["Tarde", "Noche"]
+    },
+    {
+        "identificacion": 13579,
+        "nombre": "Pedro",
+        "apellidos": "Rodríguez",
+        "especialidad": "NetCore",
+        "horarios_disponibles": ["Noche"]
+    }
+]
