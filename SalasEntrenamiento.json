@@ -22,7 +22,15 @@
                 "riesgo": "Bajo",
                 "ruta_asignada": "Ruta Java"
             }
-        ]
+        ],
+        "entrenadores": [
+            {
+                "nombre": "gomez",
+                "apellidos": "jaimes"
+            }
+        ],
+        "fecha_inicio": "12/04/29",
+        "fecha_finalizacion": "25/11/29"
     },
     {
         "nombre": "Apolo",

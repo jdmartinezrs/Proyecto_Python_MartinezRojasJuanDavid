@@ -2,22 +2,36 @@
     {
         "identificacion": 12345,
         "nombre": "Juan",
-        "apellidos": "Pérez",
-        "especialidad": "Java",
-        "horarios_disponibles": ["Mañana", "Tarde"]
+        "apellidos": "P\u00c3\u00a9rez",
+        "horarios_disponibles": [
+            "Ma\u00c3\u00b1ana",
+            "Tarde"
+        ]
     },
     {
         "identificacion": 67890,
-        "nombre": "María",
-        "apellidos": "García",
-        "especialidad": "NodeJS",
-        "horarios_disponibles": ["Tarde", "Noche"]
+        "nombre": "Mar\u00c3\u00ada",
+        "apellidos": "Garc\u00c3\u00ada",
+        "horarios_disponibles": [
+            "Tarde",
+            "Noche"
+        ]
     },
     {
         "identificacion": 13579,
         "nombre": "Pedro",
-        "apellidos": "Rodríguez",
-        "especialidad": "NetCore",
-        "horarios_disponibles": ["Noche"]
+        "apellidos": "Rodr\u00c3\u00adguez",
+        "horarios_disponibles": [
+            "Noche"
+        ]
+    },
+    {
+        "identificacion": 12312983,
+        "nombre": "gomez",
+        "apellidos": "jaimes",
+        "horarios_disponibles": [
+            "diurno",
+            "nocturno"
+        ]
     }
 ]

@@ -94,9 +94,6 @@ def asignar_camper_a_ruta():
         with open("Camper.json", "w") as file:
             json.dump(data_campers, file, indent=4)
 
-
-import json
-
 def asignar_estudiante_a_area():
     with open("Camper.json", "r") as file:
         data_estudiantes = json.load(file)
