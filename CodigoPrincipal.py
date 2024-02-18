@@ -3,6 +3,7 @@ import GestionCampers
 import GestionRutas
 import GestionEntrenadores
 import Matriculas
+import ListaDeReportes
 
 while True: 
     opc = GestionesMenus.mostrar_menu_principal()
@@ -17,11 +18,11 @@ while True:
         opc_GestionEntrenadores = GestionesMenus.mostrar_menu_gestion_entrenadores()
         GestionEntrenadores.menu_entrenadores(opc_GestionEntrenadores)  # Corregir aquí
     elif opc == 4: 
-        opc_GenerarReportes = GestionesMenus.mostrar_menu_matriculas()
-        Matriculas.menu_matriculas(opc_GenerarReportes)
+        opc_GestionMatriculas = GestionesMenus.mostrar_menu_matriculas()
+        Matriculas.menu_matriculas(opc_GestionMatriculas)
     elif opc == 5: 
-        opc_GestionRutas = GestionesMenus.mostrar_menu_gestion_rutas
-        GestionesMenus.mostrar_menu_gestion_rutas(opc_GestionRutas)
+        opc_GenerarReportes = GestionesMenus.mostrar_menu_generar_reportes()
+        ListaDeReportes.menu_reportes(opc_GenerarReportes)
     elif opc == 6: 
         confirmacion = input("\n¿Desea salir del sistema? ")
         if confirmacion.lower() == "si": 

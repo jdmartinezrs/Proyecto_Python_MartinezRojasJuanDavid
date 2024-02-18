@@ -77,7 +77,8 @@
                 "fijo": "23904"
             },
             "estado": "Aprobado",
-            "nota_prueba_inicial": 80
+            "nota_prueba_inicial": 80,
+            "ruta_asignada": "Ruta Java"
         },
         {
             "id": 12389,
@@ -90,7 +91,8 @@
                 "fijo": "123849"
             },
             "estado": "Reprobado",
-            "nota_prueba_inicial": 50
+            "nota_prueba_inicial": 50,
+            "ruta_asignada": "Ruta Java"
         }
     ]
 }
