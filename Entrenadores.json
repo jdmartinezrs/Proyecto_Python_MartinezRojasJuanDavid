@@ -33,5 +33,22 @@
             "diurno",
             "nocturno"
         ]
+    },
+    {
+        "identificacion": 1007669180,
+        "nombre": "jhan marco",
+        "apellidos": "solano rincon",
+        "horarios_disponibles": [
+            "tarde"
+        ]
+    },
+    {
+        "identificacion": 1098758426,
+        "nombre": "Karen ",
+        "apellidos": "Nu\u00f1ez",
+        "horarios_disponibles": [
+            "ma\u00f1ana",
+            "tarde"
+        ]
     }
 ]

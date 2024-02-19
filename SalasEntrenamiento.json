@@ -34,20 +34,54 @@
     },
     {
         "nombre": "Apolo",
-        "capacidad_maxima": 33,
+        "capacidad_maxima": 32,
         "horarios_disponibles": [
             "Ma\u00c3\u00b1ana",
             "Tarde",
             "Noche"
+        ],
+        "fecha_inicio": "02/02/24",
+        "fecha_finalizacion": "05/10/24",
+        "estudiantes": [
+            {
+                "id": 1128846013,
+                "nombres": "Yerlin Stic",
+                "apellidos": "Mosquera Mosquera",
+                "direccion": "Palomitas",
+                "acudiente": "Leonardo antonio Mosquera Pino",
+                "telefonos": {
+                    "celular": "3136019148",
+                    "fijo": "6587548"
+                },
+                "estado": "Aprobado",
+                "nota_prueba_inicial": 90,
+                "ruta_asignada": "Ruta NetCore"
+            }
         ]
     },
     {
         "nombre": "Artemis",
-        "capacidad_maxima": 33,
+        "capacidad_maxima": 32,
         "horarios_disponibles": [
             "Ma\u00c3\u00b1ana",
             "Tarde",
             "Noche"
+        ],
+        "estudiantes": [
+            {
+                "id": 1006456279,
+                "nombres": "cesar mateo",
+                "apellidos": "cepeda marroquin",
+                "direccion": "floridablanca",
+                "acudiente": "teofilo",
+                "telefonos": {
+                    "celular": "3006986875",
+                    "fijo": "6587584"
+                },
+                "estado": "Aprobado",
+                "nota_prueba_inicial": 85,
+                "ruta_asignada": "Ruta NodeJS"
+            }
         ]
     }
 ]

@@ -93,6 +93,87 @@
             "estado": "Reprobado",
             "nota_prueba_inicial": 50,
             "ruta_asignada": "Ruta Java"
+        },
+        {
+            "id": 10658974,
+            "nombres": "Axel Santiago",
+            "apellidos": "Mu\u00f1oz",
+            "direccion": "Morrorico",
+            "acudiente": "Dario",
+            "telefonos": {
+                "celular": "3156548974",
+                "fijo": "6598475"
+            },
+            "estado": "Aprobado",
+            "nota_prueba_inicial": 80,
+            "ruta_asignada": "Ruta NodeJS"
+        },
+        {
+            "id": 1128846013,
+            "nombres": "Yerlin Stic",
+            "apellidos": "Mosquera Mosquera",
+            "direccion": "Palomitas",
+            "acudiente": "Leonardo antonio Mosquera Pino",
+            "telefonos": {
+                "celular": "3136019148",
+                "fijo": "6587548"
+            },
+            "estado": "Aprobado",
+            "nota_prueba_inicial": 90,
+            "ruta_asignada": "Ruta NetCore"
+        },
+        {
+            "id": 1006456279,
+            "nombres": "cesar mateo",
+            "apellidos": "cepeda marroquin",
+            "direccion": "floridablanca",
+            "acudiente": "teofilo",
+            "telefonos": {
+                "celular": "3006986875",
+                "fijo": "6587584"
+            },
+            "estado": "Riesgo de Expulsi\u00f3n",
+            "nota_prueba_inicial": 85,
+            "ruta_asignada": "Ruta NodeJS",
+            "notas_modulos": [
+                {
+                    "Fundamentos de programaci\u00c3\u00b3n": {
+                        "teorica": 50.0,
+                        "practica": 30.0,
+                        "quiz": 10.0,
+                        "final": 34.0,
+                        "estado": "Reprobado"
+                    }
+                },
+                {
+                    "Programaci\u00c3\u00b3n Web": {
+                        "teorica": 5.0,
+                        "practica": 10.0,
+                        "quiz": 5.0,
+                        "final": 8.0,
+                        "estado": "Reprobado"
+                    }
+                },
+                {
+                    "Backend": {
+                        "teorica": 20.0,
+                        "practica": 1.0,
+                        "quiz": 2.0,
+                        "final": 6.8,
+                        "estado": "Reprobado"
+                    }
+                },
+                {
+                    "Express": {
+                        "teorica": 5.0,
+                        "practica": 4.0,
+                        "quiz": 15.0,
+                        "final": 5.4,
+                        "estado": "Reprobado"
+                    }
+                }
+            ],
+            "riesgo": "Alto"
         }
     ]
 }

@@ -27,7 +27,11 @@
                 "Fundamentos de programaci\u00c3\u00b3n",
                 "Programaci\u00c3\u00b3n formal",
                 "Backend"
-            ]
+            ],
+            "entrenador_asignado": {
+                "nombre": "jhan marco",
+                "apellidos": "solano rincon"
+            }
         },
         {
             "nombre": "Programacion Web",

@@ -132,7 +132,11 @@ def Estadisticas_Modulos():
     for camper in campers_data["campers"]:
         print(f"Estudiante: {camper['nombres']} {camper['apellidos']}")
         print("\nRuta asignada:", camper["ruta_asignada"])
+        
         print("\nNotas por módulo:")
+        if not camper["ruta_asignada"] in camper :
+            print(f"Estudiante: {camper['nombres']} {camper['apellidos']}")
+            
 
         # Iterar sobre las notas de los módulos del estudiante
         for modulo in camper.get("notas_modulos", []):
@@ -143,3 +147,5 @@ def Estadisticas_Modulos():
                 print(f"\t- Nota de quiz: {nota_info['quiz']}")
                 print(f"\t- Estado del módulo: {nota_info['estado']}")
                 print()
+            if not modulo in camper.get("notas_modulos",[]):
+                print("\n\tNo se encontraron notas para este módulo.") 
